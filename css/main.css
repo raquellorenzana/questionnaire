@@ -1,0 +1,87 @@
+@font-face {
+    font-family: TypeKeys;
+    src: url(../font/type_keys/TypeKeys.ttf);
+}
+
+@font-face {
+	font-family: OldNewspaperTypes;
+	src: url(../font/OldNewspaperTypes.ttf);
+}
+
+body {
+	background-image: url(../img/sf_skyview.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 20%;
+} 
+
+
+h2.title {
+	font-family: TypeKeys;
+	color: #066;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 4em;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+form p {
+	font-family: OldNewspaperTypes;
+	letter-spacing: .2em;
+	color: #000;
+	font-size: 24px;
+	text-shadow: 1px 1px #ccc;
+}
+
+input.form-control {
+	width: 90%;
+	border: 3px solid #ccc;
+}
+
+
+
+.correct {
+	color: #00b3b3;
+	border-top: 3px dashed #000;
+}
+
+.incorrect {
+	color: #f00;	
+}
+
+h1.correct, h1.incorrect {
+	font-family: OldNewspaperTypes;
+	letter-spacing: .3em;
+	text-shadow: 2px 2px #000;
+	padding: 5px;
+}
+
+button.btn {
+	font-family: OldNewspaperTypes;
+	background-color: #066;
+	box-shadow: 3px 3px rgba(128,128,128,0.8);
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: .2em;
+	margin: 5% 0;
+	border: none;
+}
+
+button.btn:hover {
+	background-color: #00b3b3;
+	
+}
+
+button a {
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: .2em;
+}
+
+@media (max-width: 840px) {
+	h2.title {font-size: 3em;
+	}
+}
+
